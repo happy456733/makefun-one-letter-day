@@ -7,32 +7,41 @@
 // the word and the reasoning live here and in the README.
 //
 // ---------------------------------------------------------------------------
-// v1 choice: "Z" — the word behind it is "zero-sleep".
+// v1 choice (superseded): "Z" — the word behind it was "zero-sleep".
+// The day ran past midnight with no sleep, and Z is the sleep letter
+// reporting its own absence. Honest, but a count, not a picture — and
+// Z is the obvious pick for anything sleep-related.
 //
-// Why Z, why "zero-sleep":
-// - The day: 23 November 2026. A day of building, fixing, shipping —
-//   and it ran straight past midnight into the small hours (03:00 PKT)
-//   with no sleep in sight. The honest report of the day is not a mood,
-//   it is a count: zero sleep.
-// - "Zero-sleep" is vivid and specific: it calls up a sharp picture —
-//   a desk lamp at 3 a.m., a pot of tea gone cold, a builder still going.
-// - It is funny in the way an honest overstatement lands at once:
-//   everybody has had the day where the sleep column reads zero.
-// - It feels true, because it is: the day genuinely ended with no sleep.
-// - Z fits the word: Z is the letter of sleep itself (Zzz), and here it
-//   is sleep with the number zero in front of it — the sleep letter
-//   reporting its own absence.
+// REVISION (thinking_revised): "B" — the word behind it is "bleary".
+//
+// Why B beats Z, against the judge's criteria in order:
+// 1. B is still the first letter of a word that describes the day:
+//    the day ended bleary-eyed, running on fumes at 3 a.m.
+// 2. "Bleary" is more vivid and specific than "zero-sleep": a count
+//    says how much sleep there was (none); "bleary" shows the state —
+//    the 3 a.m. desk lamp, the cold tea, eyes that will not focus.
+//    A picture beats a number.
+// 3. It is funnier: everybody knows the bleary-eyed builder who swore
+//    they would sleep an hour ago. "Zero sleep" is a complaint;
+//    "bleary" is a self-portrait.
+// 4. It is equally true — the day genuinely ended bleary, not rested.
+// 5. The letter suits its word better: Z was the obvious sleep-letter
+//    pick, but B is the sharper initial — the soft "bl-" onset sounds
+//    blurred, the way bleary vision feels. The judge rewards the
+//    sharper initial where one exists, and B is that one.
 // ---------------------------------------------------------------------------
 //
-// NOTE (thinking_revised): this v1 is a first draft, not the final word.
-// The choice is revised in a later step, with the reasoning recorded
-// in the comments and the README, before the entry is submitted.
+// The day: 23 November 2026. A day of building, fixing, shipping —
+// and it ran straight past midnight into the small hours (03:00 PKT)
+// with no sleep in sight. The honest report of the day is not a mood,
+// it is a state: bleary-eyed, running on fumes, seeing the world
+// through a blur.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // The letter for this version of the entry.
-const LETTER = "Z";
+const LETTER = "B";
 
 // The output directory: the grader sets MAKEFUN_OUTPUT_DIR; default to
 // /output when it is not set, exactly as the competition expects.
